@@ -1,0 +1,219 @@
+/*******  home__section-form-media  start   *******/
+
+@media(max-width: 1571px){
+  .container__home-form{
+    width: 100%;
+    padding: 50px 10px 45px 10px;
+    height: fit-content;
+  }
+  .form__home{
+    margin-top: 24px;
+    margin-bottom: 43px;
+  }
+  .home-form__title{
+    margin-bottom: 23px;
+  }
+  .home-form__subtext--top{
+    margin-bottom: 16px;
+  }
+  .home-form__decor--vistablue{
+    width: 95%;
+  }
+  .home-form__decor--narvik{
+    width: 85%;
+  }
+}
+@media(max-width: 1041px){
+  .form__home{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 23px;
+  }
+  .form__home-button{
+    margin-top: 25px;
+  }
+}
+@media(max-width: 801px){
+  .section__home-form{
+    width: 100%;
+    padding: 50px 10px 85px 10px;
+  }
+  .home-form__title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .home-form__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .form__home-input {
+    width: 290px;
+  }
+  .home-form__subtext{
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+@media(max-width: 760px) {
+  .container__home-form {
+    width: 720px;
+    height: 434px;
+    //margin: 0;
+    padding: 45px 10px 45px 10px;
+  }
+  .home-form__decor--vistablue {
+    width: 90%;
+  }
+  .home-form__title {
+    margin-bottom: 10px;
+  }
+  .form__home {
+    margin-top: 17px;
+    margin-bottom: 15px;
+  }
+  .home-form__subtext--top {
+    position: relative;
+    top: 0;
+  }
+  .home-form__subtext--top {
+    margin-bottom: 0;
+  }
+}
+@media(max-width: 730px) {
+  .container__home-form {
+    width: 100%;
+    height: fit-content;
+  }
+}
+@media(max-width: 660px){
+  .section__home-form{
+    padding: 0 10px 45px 10px;
+  }
+  .container__home-form{
+    padding: 45px  22px 40px 22px;
+  }
+  .form__home{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .form__label {
+    width: 100%;
+  }
+  .home-form__title,
+  .home-form__subtitle,
+  .home-form__subtext{
+    text-align: center;
+  }
+  .form__label--top{
+    margin-bottom: 20px;
+  }
+  .form__home-input {
+    width: 236px;
+  }
+  .home-form__subtext--top{
+    margin-bottom: 16px;
+  }
+  .form__home-input{
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 3px;
+  }
+  .form__home-input{
+    input{
+      &::placeholder{
+        font-size: 20px;
+        letter-spacing: 3px;
+        line-height: 25px;
+      }
+    }
+  }
+  .home-form__decor--vistablue{
+    width: 90%;
+  }
+  .home-form__decor--narvik{
+    width: 80%;
+  }
+}
+@media(max-width: 420px){
+  .form__home-input{
+    input{
+      &::placeholder{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: normal;
+      }
+    }
+  }
+  .home-form__title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .home-form__subtitle{
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .home-form__subtext{
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .form__home-button {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+@media(max-width: 321px) {
+  .container__home-form {
+    width: 86%;
+    height: 555px;
+    padding-top: 39px;
+    padding-right: 19px;
+    padding-left: 15px;
+  }
+  .home-form__decor--vistablue {
+    width: 80%;
+  }
+  .home-form__decor--narvik {
+    width: 75%;
+  }
+  .home-form__title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 7px;
+  }
+  .home-form__subtitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .form__home {
+    margin-top: 5px;
+  }
+  .form__home-button {
+    width: 169px;
+    height: 50px;
+    margin-top: 16px;
+  }
+  .form__home-input {
+    margin-top: 4px;
+    height: 52px;
+  }
+  .form__label--top {
+    margin-bottom: 8px;
+    margin-top: 9px;
+  }
+  .form__input-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .home-form__subtext{
+    font-size: 10px;
+  }
+  .home-form__subtext--top {
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+}
+
+/*******  home__section-form-media  end   *******/

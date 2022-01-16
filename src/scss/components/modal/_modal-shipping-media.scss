@@ -1,0 +1,88 @@
+/*******  modal-shipping-media start  *******/
+@media(max-width: 1550px) {
+  .shipping {
+    margin-left: 10px;
+    margin-right: 10px;
+    &__container {
+      width: 100%;
+    }
+    &__wrap-title{
+      top: 20px;
+    }
+  }
+}
+@media(max-width: 1001px) {
+  .shipping {
+    &__container {
+      height: 300px;
+    }
+  }
+}
+@media(max-width: 769px) {
+  .shipping {
+    position: relative;
+    &__wrap-title{
+      height: 70px;
+      top: 40px;
+    }
+    &__title {
+      font-size: 30px;
+      line-height: 25px;
+    }
+
+    &__subtitle {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    &__bg{
+      img{
+        //width: 100%;
+        //height: 100%;
+      }
+    }
+  }
+}
+@media(max-width: 600px) {
+  .shipping {
+    &__container {
+      height: 250px;
+    }
+    &__wrap-title{
+      width: 100%;
+      height: 70px;
+      top: 40px;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    &__title {
+      text-align: center;
+      font-size: 30px;
+      line-height: 25px;
+      margin-bottom: 15px;
+    }
+
+    &__subtitle {
+      font-size: 18px;
+      line-height: 24px;
+      word-wrap: break-word;
+      text-align: center;
+    }
+  }
+}
+@media(max-width: 440px) {
+  .shipping {
+    &__title {
+      font-size: 25px;
+      line-height: 20px;
+    }
+
+    &__subtitle {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}
+
+
+/*******  modal-shipping-media end  *******/

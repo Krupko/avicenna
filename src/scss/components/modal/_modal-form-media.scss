@@ -1,0 +1,49 @@
+/*******  modal-form media start  *******/
+@media(max-width: 661px){
+  .popup{
+    &__wrap-decor{
+      height: 100%;
+    }
+  }
+}
+@media(max-width: 489px){
+  .popup{
+    &__wrap-decor{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+@media(max-width: 455px){
+  .popup{
+    &__container{
+      padding: 23px 24px;
+    }
+    &__input{
+      input{
+        width: 75%;
+      }
+    }
+    &__decor--vistablue{
+      width: 90%;
+    }
+    &__decor--narvik{
+      width: 80%;
+    }
+  }
+}
+@media(max-width: 375px){
+  .popup{
+    &__title{
+      font-size: 26px;
+      line-height: 30px;
+    }
+    &__subtitle{
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}
+
+
+/*******  modal-form media end  *******/

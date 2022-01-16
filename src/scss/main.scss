@@ -1,0 +1,28 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "settings";
+@import "fonts";
+
+// подключения компонентов страницы
+@import "components/header/header";
+@import "components/home__top";
+@import "components/home__services";
+@import "components/home__professionals";
+@import "components/home__form";
+@import "components/footer/footer";
+@import "components/modal/modal-form";
+@import "components/modal/modal-shipping";
+
+// маленькие компоненты
+@import "components/burger";
+
+// media
+@import "components/header/header-media";
+@import "components/home__top-media";
+@import "components/home__services-media";
+@import "components/home__professionals-media";
+@import "components/home__form-media";
+@import "components/footer/footer-media";
+@import "components/modal/modal-form-media";
+@import "components/modal/modal-shipping-media";

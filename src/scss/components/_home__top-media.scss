@@ -1,0 +1,145 @@
+/*******   home__section-top-media start   *******/
+@media (max-width: 1773px){
+  .home__slider-top{
+    width: 100%;
+  }
+  .slide__block-right{
+    width: 45%;
+  }
+}
+@media (max-width: 1500px){
+  .top__slide-navigation{
+    bottom: 3%;
+    left: 83%;
+  }
+  .slide__block-left {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 55;
+  }
+  .slide__block-right {
+    width: 716px;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+  }
+}
+@media (max-width: 1100px){
+  .slide__block-left {
+    width: 70%;
+  }
+  .doctor {
+    right: 0;
+  }
+  .top__slide-navigation {
+    left: 80%;
+  }
+}
+@media (max-width: 802px) {
+  .slide__block-left {
+    width: 50%;
+  }
+  .top__slide-navigation {
+    left: 75%;
+  }
+}
+@media (max-width: 761px) {
+  .slide__block-left{
+    padding-top: 89px;
+    width: 50%;
+    margin-left: 0;
+  }
+  .home__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .title{
+    line-height: 52px;
+  }
+  .home__title--medium{
+    line-height: 52px;
+  }
+  .slide__first-text{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+  .top__slide-navigation{
+    display: none;
+  }
+}
+@media (max-width: 650px){
+  .slide__block-left{
+    padding-top: 32px;
+    width: 70%;
+  }
+  .slide__block-right{
+    width: 90%;
+    height: 50%;
+  }
+  .large{
+  width: 340px;
+  height: 340px;
+}
+  .doctor{
+    height: 100%;
+  }
+}
+@media (max-width: 440px) {
+  .slide__block-left {
+    width: 90%;
+  }
+  .home__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .title {
+    line-height: 36px;
+  }
+  .home__title--medium {
+    line-height: 27px;
+  }
+  .slide__first-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .block__right-btn {
+    width: 300px;
+    height: 136px;
+    //bottom: 73px;
+    bottom: -10%;
+    left: 55%;
+    transform: translate( -50%, -50% );
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .btn__content{
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -20px;
+    .button__text{
+      text-align: left;
+      margin-left: 0;
+    }
+  }
+  .top__slide-navigation {
+    bottom: -13%;
+    left: 30%;
+    z-index: 999999;
+    width: 108px;
+    .swiper-button {
+      width: 46px;
+      height: 46px;
+    }
+  }
+}
+
+/*******   home__section-top-media end   *******/

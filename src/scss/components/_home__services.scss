@@ -1,0 +1,177 @@
+/*******  home__services start  *******/
+.services{
+  //height: 776px;
+  padding: 101px 0 70px 100px;
+  position: relative;
+  &__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--color-outerSpace);
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-corduroy);
+    text-transform: uppercase;
+  }
+  &__slider{
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+    background: var(--color-concrete);
+    box-shadow: var(--shadow-button-doctor);
+    border-right: 20px;
+    margin-top: 45px;
+    border-radius: var(--button-radius20);
+  }
+  &__swiper-slide{
+    height: 100%;
+    border-radius: var(--button-radius20);
+    background: var(--color-alabaster);
+    box-shadow: var(--shadow-button-doctor), var(--shadow-button-doctor-top);
+    a{
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      border-radius: var(--button-radius20);
+    }
+  }
+  &__slide{
+    height: 356px;
+    border-radius: var(--button-radius20) var(--button-radius20) 0 0;
+    position: relative;
+    overflow: hidden;
+  }
+  &__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__slide-text{
+    height: 16%;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    white-space: nowrap;
+    color: var(--color-outerSpace);
+    background-color: var(--color-alabaster);
+    border-right: 4px solid var(--color-white);
+    border-bottom: 4px solid var(--color-white);
+    border-left: 4px solid var(--color-white);
+    border-radius: 0 0 var(--button-radius20) var(--button-radius20);
+  }
+  .services__slide-navigation{
+    position: absolute;
+    z-index: 34;
+    right: 205px;
+    top: 140px;
+    width: 148px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    .slider-button {
+      width: 62px;
+      height: 62px;
+      border-radius: 8px;
+      border: 2px solid var(--color-vistaBlue);
+      position: static;
+      margin-top: 0;
+      opacity: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover{
+        border: 2px solid var(--color-greenHaze);
+        use{
+          fill: var(--color-greenHaze);
+        }
+      }
+      &::after{
+        display: none;
+      }
+    }
+    .arrow__navigation{
+      width: 9px;
+      height: 16px;
+      use{
+        fill: var(--color-vistaBlue);
+      }
+    }
+    .arrow__navigation--lift{
+      transform: rotate(-180deg);
+    }
+  }
+  .services__scrollbar{
+    background-color: var(--color-narvik);
+    position: static;
+    height: 5px;
+    width: 90%;
+    margin-top: 89px;
+  }
+  .swiper-scrollbar-drag{
+    background-color: var(--color-greenHaze);
+  }
+}
+.services__slider{
+  //background-color: #fff;
+  box-shadow: 10px 40px 50px rgba(222, 222, 222, 0.4), 10px -40px 50px rgba(222, 222, 222, 0.4);
+}
+.swiper__services{
+  width: 100%;
+  border-radius: var(--button-radius20);
+  background-color: var(--color-concrete);
+}
+
+.slide__border-icon{
+  width: 144px;
+  height: 144px;
+  border-top: 1px solid var(--color-narvik);
+  border-right: 1px solid var(--color-narvik);
+  transform: rotate(1turn);
+  border-radius: 0 100% 0 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+}
+.slide__bg-icon{
+  width: 127px;
+  height: 127px;
+  background-color: var(--color-greenHaze);
+  transform: rotate(1turn);
+  border-radius: 0 100% 0 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.slide__icon{
+  width: 53px;
+  height: 50px;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  use{
+    fill: var(--color-white);
+  }
+}
+.services__bg-gradient{
+  width: 179px;
+  height: 80%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  //top: 0;
+  z-index: 55;
+  background: linear-gradient(-90deg, #fff -7%, rgba(196, 196, 196, 0) 66%);
+}
+
+/*******  home__section-services end  *******/

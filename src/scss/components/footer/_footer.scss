@@ -1,0 +1,112 @@
+/*******   footer start   *******/
+.footer {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--color-corduroy);
+  padding-top: 114px;
+  padding-bottom: 100px;
+}
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+}
+.footer__logo{
+  width: 226px;
+  height: 66px;
+  margin-bottom: 34px;
+}
+.footer__banner{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  li:not(:first-child){
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    overflow: hidden;
+  }
+}
+.footer__about{
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-auto-rows: minmax(100px, auto);
+  //margin-left: 10px;
+}
+.footer__services{
+  grid-column-start: 7;
+  grid-column-end: 9;
+  margin-left: -10px;
+}
+.footer__contact{
+  grid-column-start: 10;
+  grid-column-end: 13;
+  padding-top: 14px;
+}
+.footer__nav{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+}
+.footer-about__item{
+  display: flex;
+  align-items: flex-end;
+}
+.footer-about__item:not(:first-child):hover > .footer-about__link > span{
+  color: var(--color-greenHaze);
+  border-bottom: 1px solid var(--color-greenHaze);
+}
+.footer-about__item:first-child{
+  margin-bottom: 20px;
+}
+.footer-about__link{
+  line-height: 31px;
+  width: fit-content;
+  color: var(--color-white);
+    span{
+      border-bottom: 1px solid var(--color-white);
+    }
+}
+.footer-contact__item:not(:last-child){
+  margin-bottom: 39px;
+}
+.footer-about__link--bold{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+.footer-link__contact{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+}
+.footer__icon{
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  use{
+    fill: var(--color-greenHaze);
+  }
+}
+.footer__icon--location{
+  width: 19px;
+}
+.footer__cop{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-white);
+  grid-column: 4/5;
+  margin-top: -24px;
+}
+.footer_porting{
+  display: none;
+}
+
+
+/*******   footer end   *******/

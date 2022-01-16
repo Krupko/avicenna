@@ -1,0 +1,66 @@
+<!-------  modal-form start  ------->
+<section class="popup">
+  <div class="popup__wrap-decor">
+    <div class="popup__container">
+      <button class="popup__btn-close">
+        <svg class="cross__close">
+          <use xlink:href="img/sprite.svg#cross"></use>
+        </svg>
+      </button>
+      <h2 class="popup__center popup__title">
+        Не&nbsp;знаете к&nbsp;кому записаться?
+      </h2>
+      <p class=" popup__center popup__subtitle">
+        Оставьте ваш номер и&nbsp;мы&nbsp;</br>подскажем нужного специалиста
+      </p>
+      <form action="" class="popup__form">
+        <label for="userName" class="popup__label form__label--top">
+          <span class="popup__label-text">*Имя</span>
+          <p class="popup__input">
+            <span class="popup__input-icon">
+              <svg class="input__icon">
+                <use xlink:href="img/sprite.svg#user-form"></use>
+              </svg>
+            </span>
+            <input id="userName" type="text" placeholder="Введите имя" required autocomplete>
+        </p>
+        </label>
+        <label for="phone" class="popup__label">
+          <span class="popup__label-text">*Телефон</span>
+          <p class="popup__input">
+        <span class="popup__input-icon">
+          <svg class="input__icon">
+            <use xlink:href="img/sprite.svg#phone-form"></use>
+          </svg>
+        </span>
+            <input id="phone" type="text" placeholder="+7 (__) ___ - __ - __" required autocomplete>
+          </p>
+        </label>
+        <label for="email" class="popup__label">
+          <span class="popup__label-text">*Email</span>
+          <p class="popup__input">
+        <span class="popup__input-icon">
+          <svg class="input__icon">
+            <use xlink:href="img/sprite.svg#mail"></use>
+          </svg>
+        </span>
+            <input id="email" type="text" placeholder="Введите email" required autocomplete>
+          </p>
+        </label>
+        <button type="submit" class="popup__button">
+          Отправить
+          <svg class="button__send">
+            <use xlink:href="img/sprite.svg#arrow-right"></use>
+          </svg>
+        </button>
+      </form>
+      <p class="popup__center popup__subtext popup__subtext-top">Нажимая отправить я&nbsp;соглашаюсь с&nbsp;политикой работы с&nbsp;<a href="#" class="form__subtext-line">персональными даннымия</a></p>
+      <p class="popup__center popup__subtext">Защита от&nbsp;спама reCAPTCHA <a href="#" class="form__subtext-line">Конфиденциальность</a> и&nbsp;<a href="#" class="form__subtext-line">Условия использования</a></p>
+    </div>
+    <div class="popup__decor popup__decor--vistablue"></div>
+    <div class="popup__decor popup__decor--narvik"></div>
+  </div>
+</section>
+
+
+<!-------  modal-form end  ------->

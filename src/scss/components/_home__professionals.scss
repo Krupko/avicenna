@@ -1,0 +1,150 @@
+/*******  home__section-professionals start  *******/
+.professionals {
+  height: 776px;
+  padding: 26px 0 0 100px;
+  position: relative;
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--color-outerSpace);
+    max-width: 100%;
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-corduroy);
+    text-transform: uppercase;
+  }
+  &__slider{
+    width: 100%;
+    height: 466px;
+    overflow: hidden;
+    background: var(--color-concrete);
+    box-shadow: var(--shadow-button-doctor), var(--shadow-button-doctor-top);
+    margin-top: 45px;
+    border-radius: 20px;
+  }
+  &__swiper-slide{
+    height: 100%;
+    background: var(--color-alabaster);
+    box-shadow: var(--shadow-button-doctor), var(--shadow-button-doctor-top);
+    border-radius: 20px;
+    a{
+      width: 100%;
+      height: 100%;
+      text-decoration:transparent;
+      border-radius: var(--button-radius20);
+    }
+  }
+  &__slide{
+    height: 356px;
+    border-radius: var(--button-radius20) var(--button-radius20) 0 0;
+    overflow: hidden;
+  }
+  &__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__slide-text{
+    height: 23%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    //white-space: nowrap;
+    color: var(--color-outerSpace);
+    background-color: var(--color-alabaster);
+    border-right: 4px solid var(--color-white);
+    border-bottom: 4px solid var(--color-white);
+    border-left: 4px solid var(--color-white);
+    border-radius: 0 0 var(--button-radius20) var(--button-radius20);
+  }
+  &__slide-subtext{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-corduroy);
+  }
+  &__slide-navigation{
+    position: absolute;
+    z-index: 34;
+    right: 205px;
+    top: 64px;
+    width: 148px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    .slider-button {
+      width: 62px;
+      height: 62px;
+      border-radius: 8px;
+      border: 2px solid var(--color-vistaBlue);
+      position: static;
+      margin-top: 0;
+      opacity: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover{
+        border: 2px solid var(--color-greenHaze);
+        use{
+          fill: var(--color-greenHaze);
+        }
+      }
+      &::after{
+        display: none;
+      }
+    }
+    .arrow__navigation{
+      width: 9px;
+      height: 16px;
+      use{
+        fill: var(--color-vistaBlue);
+      }
+    }
+    .arrow__navigation--lift{
+      transform: rotate(-180deg);
+    }
+  }
+  .professionals__scrollbar{
+    background-color: var(--color-narvik);
+    position: static;
+    height: 5px;
+    width: 90%;
+    margin-top: 84px;
+  }
+  .swiper-scrollbar-drag{
+    background-color: var(--color-greenHaze);
+  }
+}
+.swiper__professionals{
+  width: 100%;
+  background: var(--color-concrete);
+}
+.professionals__bg-gradient{
+  width: 179px;
+  //height: 73%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 55;
+  background: linear-gradient(-90deg, #fff -7%, rgba(196, 196, 196, 0) 66%);
+}
+
+
+
+/*******  home__section-professionals end  *******/
